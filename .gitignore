@@ -1,0 +1,22 @@
+# Siemens TIA Portal
+
+# Exclude temporary TIA Portal folders
+/System/
+/IM/
+/Logs/
+/XRef/
+/VCi/
+/AdditionalFiles/
+
+# Exclude all temporary and log files
+*.log
+*.log.*
+*.tmp
+*.tmp.*
+*.s7s
+*.info
+
+# Exclude Simatic S7-PLCSIM files
+*.plc.bin
+*.plc.db
+*.plc.xml
